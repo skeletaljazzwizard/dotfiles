@@ -15,7 +15,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 " Git branch info for lightline
 Plug 'itchyny/vim-gitbranch'
-"Code completeion via coc.nvim 
+" Coc intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Color Scheme
 Plug 'morhetz/gruvbox'
@@ -122,4 +122,3 @@ let g:plug_timeout=20
 " Keymappings
 " -----------------------------------------------------
 nmap <F2> :NERDTreeToggle<CR>
-nmap <leader>i <Plug>(coc-codeaction)<CR>
