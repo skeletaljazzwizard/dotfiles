@@ -195,7 +195,8 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
     ;;
 esac
 
-# NVM (node version manager) set up
+# NVM (node version manager) set up / For neovim because not using 0.4
+# TODO remove when upgraded to 0.5
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
